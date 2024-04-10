@@ -1,0 +1,11 @@
+
+
+  ReAct Prompting
+
+    Task: Calculate when I  need to arrive the Music City BMX National Race for my son to be on time for his 9-10 Open race.
+    Think: I need to findout what time the first race begins. I can se a web search of the Music City BMX site to get the 
+      information.
+    Action: SEARCH WWWW.website.com
+    Results: All races tart at 9am
+    Think: I need to find out how many motos run before the 9-10 Opean race. I can use a web search of the Music City BMX site 
+      to get the information.
