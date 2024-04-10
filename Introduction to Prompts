@@ -151,9 +151,22 @@ There could be many variations of this pattern that use slightly different wordi
 
       Situation: I am travelling 60 miles per hour and I see the brake lights on the car in front of me come on   
       Think: I need to slow the car down before I hit the car in front of me
+      Action: Press foot on brake
+      Think: The car isn't going to step in time
+      Action: check if the shoulder is wide enought to swerve into 
+      Think: The shoulder is wide enough
+      Action: Swerve into shoulder
 
+      Situation: I have just entered the highway from an on-ramp and am traveling 30mph
+      Think: I need to speed up to the speed limit so that I don't get hit from behind
+      Action: Press foot on accelerator
+      Think: I have reached the speed limit
+      Action: Let up on accelerator
+
+      Situation: I am backing out of a parking spot and I see the reverse lights iluminate on the car behind me
+      Action:
       
-    
+      
 
      
 
