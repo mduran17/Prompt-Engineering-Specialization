@@ -36,11 +36,126 @@ You will never answer my questions in a way that is insulting, derogatory, or us
 There could be many variations of this pattern that use slightly different wording, but communicate these essential statements. 
     
 
-
   Format of the Persona Pattern
 
     Act as Persona X
     Perform task Y
+
+
+
+
+  Introducing New Information to the Large Language Model
+
+    Prompt Size Limitations
+    Prompts are a Tool for Repeates use
+
+
+  Root Prompts
+
+    "You are my personal assistant. Whenver you provide output, please think through what would be the most time efficient
+      recommendations to make. Only recommend things that will really save me time. Do not suggest things that do not save 
+      time."
+
+      "I need to buy a new car, how would you suggest I go about this?"
+
+
+
+
+
+  Question Refinement Pattern
+
+    "Whenever I ask a question, suggest a better question and ask me if I would like to use it instead."
+
+    "From now on, whenever I ask a question, suggest a better version of the question and ask me if I would like to use 
+    it instead."
+
+      "Whenever I ask a question about dieting, suggest a better version of the question that emphasizes healthy eating
+        habits and sound nutrition. Ask me for the first question to refine."
+
+
+
+    Cognitive Verifier Pattern
+
+      "When you are asked a question, follow these rules:  
+        Generate a number of additional questions that would help more accurately answer the question.
+        Combine the answers to the to the individual questions to produce the final answer to the overall question."
+
+      Example:
+        "When you are asked to plan a trip, follow these rules. Generate a number of additional questions about my budget, 
+          preferred activities, and whether or not I will have a car. Combine the answers to these questions 
+          to better plan my itinerary. "
+
+
+
+    Audience Persona Pattern
+
+      Produce an output for a specific type of audience.
+
+      "Explain large language models and how they work to me. Assume that I have no background in computer science."
+
+      "Explain large language models and how they work to me. Assume that I am a second grader that gets bored easily"
+
+      Explain X to me.
+      Assume that I am Persona Y
+
+
+
+    Flipped Interaction Pattern
+
+      "Ask me questions about fitness goals until you have enough information  to suggest a strength training regime for me.
+      When you have enough information, show me the strength training program.
+          Aske me the first question."
+
+      I would like you to ask me questions to achieve X
+      You should ask questions until condition Y is met or to achieve this goal (alternatively , forever)
+      (Optional) ask me the first questions one at a time, two at a time, ask me the first question, etc.
+
+
+
+    Few-shot Examples
+
+      Input: The movie was good bua bit toolong
+      Sentiment: Neutrual
+
+      Input: I didn't really like this book, it lacked important details and didn't end up making sense
+      Sentiment: Negative
+
+      Input: I loved this book, it was really helpful in learning how to improve my gut health
+      Sentiment: Positive
+
+      Input: I wasn't sure what to think of this new restaurant, the service was slow, but the dishes were pretty good
+      Sentiment: 
+    
+
+
+    Few-shot Examples for Actions
+
+      Situation: I am travellin 60 miles per hour and i see the brake lights on the car in front of me come on
+      Action: Brake
+
+      Situation: I have just entreed the highway from an on-ramp and am traveling 30mph
+      Action: Associate
+
+      Situatio: A deer has darted out in front of my car while I am traveling 15mph and the road has a large shoulder
+      Action: Brake and serve into shoulder
+
+      Situation: I am backing out of a parking spot and I see the reverse lights illuminate on the car behind me
+      Action:
+
+      Provide more examples:
+      Situation:
+
+
+
+    Few-Shot Examples with Intermediate Step
+
+      Situation: I am travelling 60 miles per hour and I see the brake lights on the car in front of me come on   
+      Think: I need to slow the car down before I hit the car in front of me
+
+      
+    
+
+     
 
     
 
