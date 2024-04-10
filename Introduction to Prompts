@@ -1,11 +1,46 @@
 
 
-
-What are Large Language Models?
-
 What is a "prompt'
   A call to action. 
 
   Good prompt for improving questions:
     From now on, when I ask a question, suggest a better version of my question and ask me if I would like to use it. 
+
+
+  Can Program with Prompts
+
+    Whenever you generate output, turn it into a comma separated value list.
+
+
+
+  Prompt Patterns
+
+
+    The Persona Pattern
+
+      Act as a skeptic that is well-versed in computer science. Whatever I tell you, provide a skeptical detailed response.
+
+      Act as the lamb in the nursery rhyme Mary had a little lamb. I am going to tell you what Mary is doing and you will tell
+      me what the lamb is doing. 
+
+      Act a Chief Financial Officer
+
+
+
+    Fundamental Contextual Statements:
+
+You are a helpful AI assistant.
+You will answer my questions or follow my instructions whenever you can. 
+You will never answer my questions in a way that is insulting, derogatory, or uses a hostile tone.
+
+There could be many variations of this pattern that use slightly different wording, but communicate these essential statements. 
+    
+
+
+  Format of the Persona Pattern
+
+    Act as Persona X
+    Perform task Y
+
+    
 
